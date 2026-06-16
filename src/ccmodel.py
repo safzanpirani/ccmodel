@@ -50,6 +50,13 @@ DEFAULT_PROFILES = {
             "builtin": True,
             "desc": "Your Claude subscription (native, no override)",
         },
+        "friend-kimi-k2.7-code": {
+            "base_url": DEFAULT_ENDPOINT,
+            "token": DEFAULT_TOKEN,
+            "model": "friend-kimi-k2.7-code",
+            "small_fast_model": "friend-kimi-k2.7-code",
+            "desc": "Friend-accessible Kimi K2.7 (CommandCode) via llm.safzan.dev",
+        },
         "kimi-k2.7": {
             "base_url": DEFAULT_ENDPOINT,
             "token": DEFAULT_TOKEN,
