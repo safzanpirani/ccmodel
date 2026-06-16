@@ -36,7 +36,7 @@ curl -fsSL https://raw.githubusercontent.com/safzanpirani/ccmodel/main/install.s
 
 ```bash
 git clone https://github.com/safzanpirani/ccmodel.git
-cp ccmodel/bin/ccmodel ~/.local/bin/ccmodel   # or /usr/local/bin
+cp ccmodel/src/ccmodel.py ~/.local/bin/ccmodel   # or /usr/local/bin
 chmod +x ~/.local/bin/ccmodel
 ```
 
@@ -54,7 +54,7 @@ ccmodel ls
 ccmodel use kimi-k2.7
 
 # start / restart Claude Code in a new shell so the env is read
-cclaude --dangerously-skip-permissions
+claude
 
 # go back to your real Claude subscription
 ccmodel sub

@@ -16,7 +16,7 @@ else
 fi
 
 TARGET="$INSTALL_DIR/ccmodel"
-URL="https://raw.githubusercontent.com/$REPO/$BRANCH/bin/ccmodel"
+URL="https://raw.githubusercontent.com/$REPO/$BRANCH/src/ccmodel.py"
 
 echo "Installing ccmodel to $TARGET ..."
 if command -v curl >/dev/null 2>&1; then
